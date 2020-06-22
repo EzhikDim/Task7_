@@ -13,7 +13,7 @@ public class Main {
         for (int i = 0; i < size; i++){
             mas[i] = inp.nextInt();
         }
-        System.out.println("Ответ: " + Solution(mas));
+        System.out.println("Ответ: " + count(mas));
     }
 
     static int count(int[]mas){
