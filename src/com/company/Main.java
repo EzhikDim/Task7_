@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Ответ: " + Solution(mas));
     }
 
-    static int Solution(int[]mas){
+    static int count(int[]mas){
         int max = 0, str = 0, num = 0;
         for(int i = 0; i < mas.length; i++){
             num = mas[i];
